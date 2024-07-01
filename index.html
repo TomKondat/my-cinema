@@ -26,8 +26,8 @@
           <a class="navbar-brand" href="#"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
+              width="32"
+              height="32"
               fill="currentColor"
               class="bi bi-camera-reels-fill"
               viewBox="0 0 16 16"
@@ -68,10 +68,13 @@
     </header>
     <!-- -----------------------------HEADER-------------------------------------------------- -->
 
-    <div class="container">
-      <!-- -----------------------------CARUSEL-------------------------------------------------- -->
-
-      <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="container pt-5">
+      <!-- ----------------------------------------- -->
+      <!-- <div
+        id="carouselExampleIndicators"
+        class="carousel slide mx-auto"
+        style="width: 500px"
+      >
         <div class="carousel-indicators">
           <button
             type="button"
@@ -96,21 +99,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="images/badboys.jpg"
-              class="d-block w-100 h-20"
-              alt="badboys"
-            />
+            <img src="images/badboys.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img
-              src="images/deadpool.jpg"
-              class="d-block w-100"
-              alt="deadpool"
-            />
+            <img src="images/deadpool.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="images/joker.jpg" class="d-block w-100" alt="joker" />
+            <img src="images/joker.jpg" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button
@@ -131,8 +126,132 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div> -->
+      <!-- ----------------------------------------- -->
+
+      <!-- -----------------------------card-------------------------------------------------- -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="images/badboys.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Bad Boys</h5>
+              <p class="card-text">Rating: 4.9</p>
+              <div class="d-flex justify-content-between">
+                <a href="payment.html" class="btn btn-primary">Buy Now</a>
+                <button class="btn btn-outline-danger" disabled>
+                  Top Trending
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="images/if.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">If</h5>
+              <p class="card-text">Rating: 4.1</p>
+              <div class="d-flex justify-content-between">
+                <a href="payment.html" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="images/dune.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Dune</h5>
+              <p class="card-text">Rating: 3.5</p>
+              <div class="d-flex justify-content-between">
+                <a href="payment.html" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="images/joker.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Joker</h5>
+              <p class="card-text">Rating: 4.3</p>
+              <div class="d-flex justify-content-between">
+                <a href="payment.html" class="btn btn-primary">Buy Now</a>
+                <button class="btn btn-outline-danger" disabled>
+                  Top Trending
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="images/deadpool.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Deadpool & Wolverine</h5>
+              <p class="card-text">Rating: 4.6</p>
+              <div class="d-flex justify-content-between">
+                <a href="payment.html" class="btn btn-primary">Buy Now</a>
+                <button class="btn btn-outline-danger" disabled>
+                  Top Trending
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="images/insidejpg.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Inside out 2</h5>
+              <p class="card-text">Rating: 3.9</p>
+              <div class="d-flex justify-content-between">
+                <a href="payment.html" class="btn btn-primary">Buy Now</a>
+                <button class="btn btn-outline-danger" disabled>
+                  Top Trending
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="images/des4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Despicable me 4</h5>
+              <p class="card-text">Rating: 3.2</p>
+              <div class="d-flex justify-content-between">
+                <a href="payment.html" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="images/avengersjpg.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Avengers</h5>
+              <p class="card-text">Rating: 4.6</p>
+              <div class="d-flex justify-content-between">
+                <a href="payment.html" class="btn btn-primary">Buy Now</a>
+
+                <button class="btn btn-outline-danger" disabled>
+                  Top Trending
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- -----------------------------CARUSEL-------------------------------------------------- -->
+      <!-- -----------------------------card-------------------------------------------------- -->
     </div>
   </body>
 </html>
